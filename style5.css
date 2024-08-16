@@ -1,0 +1,17 @@
+/* Reset some default styles */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image:url("bgpic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  
+ 

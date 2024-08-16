@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-image:url("bgpic.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+nav{
+    width: 84%;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+   width: 100px;
+   cursor: pointer;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 35px;
+    list-style: none;
+}
+
+nav ul li a{
+    background:black;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+nav ul li a:hover{
+    color: rgb(71, 194, 208);
+}
+
+.info{
+    margin-top: 40px;
+}
+
+.info h1{
+    font-size: 40px;
+}
+
+.yadav{
+    color: whitesmoke;
+
+}
+
+.info a{
+    background:black;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+
+.social{
+  width: 30px;
+  height: 30px;
+  display: inline;
+}
+
+.pic1{
+    width: 20px;
+    height: 20px;
+}
+
+.leftsection{
+    width: 300px;
+}
+ 
+
+
+.kiran{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
